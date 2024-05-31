@@ -1,31 +1,3 @@
-# import cv2
-# import numpy as np
-# import matplotlib.pyplot as plt
-
-# # Load the image (update the file name as needed)
-# image = cv2.imread("C:\Users\anude\Downloads\360_F_515515800_Dt10H8JBYktfdxCo52pfQzGo27XzMPr6.jpg")  # or 'simple_layout.jpg', 'complex_layout.jpg'
-
-# # Convert to grayscale
-# gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-
-# # Apply GaussianBlur to reduce noise and improve edge detection
-# blurred_image = cv2.GaussianBlur(gray_image, (5, 5), 0)
-
-# # Perform Canny edge detection
-# edges = cv2.Canny(blurred_image, 50, 150)
-
-# # Display the original and edge-detected images
-# plt.figure(figsize=(10, 5))
-# plt.subplot(1, 2, 1)
-# plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
-# plt.title('Original Image')
-
-# plt.subplot(1, 2, 2)
-# plt.imshow(edges, cmap='gray')
-# plt.title('Edge Detection')
-
-# plt.show()
-
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
